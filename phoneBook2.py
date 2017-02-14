@@ -1,8 +1,8 @@
-#Phonebook
+#Phonebook2
 import os, pickle
 
 
-class phone_book(object):
+class phoneBook(object):
 
     def __init__(self):
         if os.path.exists("pb.pickle"):
@@ -88,5 +88,5 @@ class phone_book(object):
         print input
     print "=" * 21
 
-pb = phone_book()
+pb = phoneBook()
 pb.mainMenu()
